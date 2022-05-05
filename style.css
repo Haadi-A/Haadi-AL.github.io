@@ -17,6 +17,11 @@
 	} 
 }
 
+
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     background: linear-gradient(-45deg, #793009, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
@@ -25,7 +30,10 @@ body{
     font-size: 27px;
     font-weight: 100px;
     background-attachment: fixed;
+    background: #e11d74;
+    color: #793009;
 }
+
 
 .main_container{
     display: flex;
@@ -60,7 +68,9 @@ body{
     margin-right: 0.5px;
 }
 
-
+img:hover{
+    transform: scale(1.1);
+}
 
 .text_card{
     display: inline-block;
@@ -76,13 +86,15 @@ body{
     align-self: end;
     align-content: center;
     width: 500px;
-        border-radius: 10px;
-        box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
     padding: 10px;
     margin: auto;
     min-width: 455px;
     max-width: 450px;
 }
+
+
 
 .head{
     
